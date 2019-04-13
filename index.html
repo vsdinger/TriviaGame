@@ -6,33 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets\css\style.css">
-    <link rel="stylesheet" href="assets\javascript\app.js">
-    <link rel="stylesheet" href="">
+    <script type="text/javascript" src="assets\javascript\app.js"></script>
     <title>Music Trivia</title>
 </head>
 <body>
-    <!-- display questions 1-7 -->
+   <!-- display time left, questions, answer, start,reset, countdown timer -->
     <h1>Music Trivia</h1>
-    <div class="wrapper"></div>
+    <div class="wrapper game container"></div>
     <div id="timeLeft"></div>
-    <div id="musicQuestion"></div>
-    <div id="answerChoices"></div>
+    <div id="questionblock musicQuestion"></div>
+    <div id="answerblock answerChoices"></div>
+    <div id="correctChoices"></div>
 
     <button class="btn btn-success" id="start">How Good are You?</button>
 
     <button class="btn btn-success" id="reset">Play Again?</button>
 
-
-
-    * You'll create a trivia game that shows only one question until the player answers it or their time runs out.
-
-    * If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
-    
-    * The scenario is similar for wrong answers and time-outs.
-    
-      * If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
-      * If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
-    
-    * On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).  
+  </div>
 </body>
 </html>

@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets\css\style.css">
-    <script type="text/javascript" src="assets\javascript\app.js"></script>
-    <title>Music Trivia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets\css\style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+  <title>Music Trivia</title>
 </head>
+
 <body>
-   <!-- display time left, questions, answer, start,reset, countdown timer -->
-    <h1>Music Trivia</h1>
-    <div class="wrapper game container"></div>
-    <div id="timeLeft"></div>
-    <div id="questionblock musicQuestion"></div>
-    <div id="answerblock answerChoices"></div>
-    <div id="correctChoices"></div>
-
-    <button class="btn btn-success" id="start">How Good are You?</button>
-
-    <button class="btn btn-success" id="reset">Play Again?</button>
-
-  </div>
+  <!-- display time left, questions, answer, start,reset, countdown timer -->
+<h1>Music Trivia</h1>
+  <div class="gameContainer">
+  <div id="timeleft"></div>
+  <div id="musicQuestion"></div>
+  <div id="correctAnswer"></div>
+  <button class="btn btn-success" id="start">How Good are You?</button><br>
+  <button class="btn btn-success" id="reset">Play Again?</button>
+</div>
 </body>
 </html>

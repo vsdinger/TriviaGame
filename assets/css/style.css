@@ -1,5 +1,68 @@
-body{
-    background-image: url(assets\images\backto70.80.90.jpg);
+body {
+    background: url("../images/jukebox-background-8.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+    -o-background-size: cover;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+      }
+    
+    img {
+      max-height: 250px;
+      width: auto;
+    }
+      
+    #correctAnswer {
+        text-align: center;
+        color: white;
+      }
+      
+      #musicQuestion {
+        text-align: center;
+        font-weight: bold;
+        color: white;
+      }
+    
+    #reset {
+      visibility: visible;
+    }
+    
+    p {
+      margin: 10px;
+      font-weight: bold;
+      color: red;
+      font-size: 20px;
+    }
+    
+    .gameContainer {
+      margin: 10px auto;
+      border: 5px solid purple;
+      height: 500px;
+      width: 60%;
+      text-align: center;
+    }
+    
+    .btn {
+      position: relative;
+      bottom: -150px;
+    }
+
+    h2, h3, h4 {
+        margin: 30px;
+        font-weight: bold;
+        color: white;
+      }
+
+      .correctAnswer {
+        border: 1px solid;
+      border-radius: 5%;
+        width: 40%;
+        color: white;
+      text-align: center;
+      margin: 10px auto;
+      font-size: 20px;
+    }

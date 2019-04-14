@@ -42,7 +42,7 @@ $(document).ready(function () {
             question: "Alanis Morissette First Album?",
             choice: ["The Cross Road", "Dance Pop", "Too Hot", "Macarena"],
             answer: 2,
-            photo: "assets/images/to_hot_by_Morissette.jpg"
+            photo: "assets/images/Morissette.jpg"
         }];
     
 
